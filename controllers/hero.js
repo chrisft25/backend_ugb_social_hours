@@ -1,4 +1,4 @@
-const db= require("../models/address")
+const db= require("../models/hero")
 
 module.exports= {
     
