@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 const aboutSchema = mongoose.Schema({
-    aboutDescription:String,
-    vision:String,
-    mission:String
+    title:String,
+    text:String
 });
 module.exports = mongoose.model('About',aboutSchema);
